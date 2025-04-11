@@ -37,7 +37,7 @@ function App() {
         // console.log(obj.x , obj.y);
 
         setImage((prev) => [...prev, obj]);
-      }, 1000);
+      }, 300);
     }
     return () => clearInterval(interval);
   }, [screen, url]);
